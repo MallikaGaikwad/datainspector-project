@@ -72,6 +72,35 @@ This will:
 3. Generate profiling statistics and visualizations
 4. Create an HTML report in the `reports/` directory
 
+After running the command "python run_demp.py", It creates
+1. correlation_heatmap.png
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/54c20e8d-6846-4bbc-9a3a-1391a78077fe" />
+
+2. datainspector_report.html
+```html
+<h1>datainspector Example Report</h1>
+<p><em>Generated: 2025-12-05 19:35:16</em></p>
+<h2>Dataset Overview</h2>
+<table border='1' cellspacing='0' cellpadding='0'><tr><th style='text-align:left;padding:4px 8px'>Shape</th><td style='padding:4px 8px'><pre style='margin:0'>(6, 6)</pre></td></tr><tr><th style='text-align:left;padding:4px 8px'>Duplicate rows</th><td style='padding:4px 8px'><pre style='margin:0'>0</pre></td></tr></table>
+<h2>Missingness (%)</h2>
+<table border='1' cellspacing='0' cellpadding='0'><tr><th style='text-align:left;padding:4px 8px'>employee_id</th><td style='padding:4px 8px'><pre style='margin:0'>0.0</pre></td></tr><tr><th style='text-align:left;padding:4px 8px'>age</th><td style='padding:4px 8px'><pre style='margin:0'>0.0</pre></td></tr><tr><th style='text-align:left;padding:4px 8px'>income</th><td style='padding:4px 8px'><pre style='margin:0'>0.0</pre></td></tr><tr><th style='text-align:left;padding:4px 8px'>plan</th><td style='padding:4px 8px'><pre style='margin:0'>0.0</pre></td></tr><tr><th style='text-align:left;padding:4px 8px'>join_date</th><td style='padding:4px 8px'><pre style='margin:0'>0.0</pre></td></tr><tr><th style='text-align:left;padding:4px 8px'>email</th><td style='padding:4px 8px'><pre style='margin:0'>0.0</pre></td></tr></table>
+<h2>Dtypes</h2>
+<table border='1' cellspacing='0' cellpadding='0'><tr><th style='text-align:left;padding:4px 8px'>employee_id</th><td style='padding:4px 8px'><pre style='margin:0'>int64</pre></td></tr><tr><th style='text-align:left;padding:4px 8px'>age</th><td style='padding:4px 8px'><pre style='margin:0'>int64</pre></td></tr><tr><th style='text-align:left;padding:4px 8px'>income</th><td style='padding:4px 8px'><pre style='margin:0'>int64</pre></td></tr><tr><th style='text-align:left;padding:4px 8px'>plan</th><td style='padding:4px 8px'><pre style='margin:0'>object</pre></td></tr><tr><th style='text-align:left;padding:4px 8px'>join_date</th><td style='padding:4px 8px'><pre style='margin:0'>object</pre></td></tr><tr><th style='text-align:left;padding:4px 8px'>email</th><td style='padding:4px 8px'><pre style='margin:0'>object</pre></td></tr></table>
+<h2>Validation Summary</h2>
+<p><strong>Overall:</strong> FAIL</p>
+<h3>Per-Column Issues</h3><ul>
+<li><strong>email</strong>: 1 value(s) fail regex &#x27;[^@\s]+@[^@\s]+\.[^@\s]+&#x27;</li>
+</ul>
+<h2>Correlation Heatmap</h2>
+<img src='reports/correlation_heatmap.png' alt='Correlation Heatmap' width='600'/>
+<h2>Distributions</h2>
+<img src='reports/distributions.png' alt='Distributions' width='600'/>
+```
+3. distributions.png
+<img width="1020" height="400" alt="image" src="https://github.com/user-attachments/assets/3fd1e1d9-82b5-4263-9268-974d8c9c8dd8" />
+
+
+
 ### Data Profiling
 
 ```python
