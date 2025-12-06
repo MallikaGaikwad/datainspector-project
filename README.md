@@ -274,7 +274,7 @@ datainspector-project/
 Run the test suite:
 
 ```bash
-pytest tests/
+pytest -q
 ```
 
 ## License
