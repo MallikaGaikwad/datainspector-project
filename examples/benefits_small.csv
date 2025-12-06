@@ -1,0 +1,7 @@
+employee_id,age,income,plan,join_date,email
+001,26,62000,Basic,2022-01-10,mallika@example.com
+002,41,80000,Premium,2021-08-05,akshit@example.com
+003,32,54000,Basic,2023-02-12,nishi@example.com
+004,23,48000,Standard,2024-06-01,vaishnavi@example.org
+005,70,102000,Premium,2020-12-20,prasad@example.net
+006,38,77000,Standard,2022-09-17,siddharth.com

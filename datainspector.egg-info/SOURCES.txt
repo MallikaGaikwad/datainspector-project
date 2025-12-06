@@ -1,0 +1,14 @@
+README.md
+setup.py
+datainspector/__init__.py
+datainspector/profiler.py
+datainspector/report.py
+datainspector/validator.py
+datainspector.egg-info/PKG-INFO
+datainspector.egg-info/SOURCES.txt
+datainspector.egg-info/dependency_links.txt
+datainspector.egg-info/requires.txt
+datainspector.egg-info/top_level.txt
+tests/test_profiler.py
+tests/test_report.py
+tests/test_validator.py
